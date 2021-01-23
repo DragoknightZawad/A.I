@@ -1,0 +1,11 @@
+import random
+pf=0
+
+for i in range (0,5):
+    if(i==0):
+        print("dirty")
+        pf=pf-1
+    else:
+        print("clean")
+        pf=pf+1
+print("The performance measure:",pf)
